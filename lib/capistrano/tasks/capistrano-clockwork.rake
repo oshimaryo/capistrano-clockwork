@@ -63,7 +63,7 @@ namespace :clockwork do
     "#{shared_path}/log"
   end
   def cw_pid_dir
-    "#{shared_path}/tmp/pids"
+    "/tmp"
   end
 
   def rails_env
