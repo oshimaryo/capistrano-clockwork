@@ -1,7 +1,7 @@
 namespace :load do
   task :defaults do
     set :clockwork_default_hooks, -> { true } 
-    set :clockwork_file, -> { "lib/clockwork.rb" }
+    set :clockwork_file, -> { "config/clockwork.rb" }
   end
 end
 

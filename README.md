@@ -34,7 +34,7 @@ By default the gem expects a the clockwork script to be present in the lib folde
 ```ruby
 
 	:clockwork_default_hooks = true
-    :clockwork_file = "lib/clockwork.rb"
+    :clockwork_file = "config/clockwork.rb"
 ```
 To override the defaults just change it in your Capfile
 
